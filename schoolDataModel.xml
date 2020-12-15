@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<new_student>
+  <date>December 15, 2020</date>
+  <parent_name>Mrs. Smith</parent_name>
+  <child_name>Amber</child_name>
+  <list>
+	<task>Fill in a, b, c forms</task>
+        <task>Send Deposit</task>
+        <task>Buy school Supplies</task>
+  </list>
+</new_student>

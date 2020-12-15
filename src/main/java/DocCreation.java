@@ -13,7 +13,8 @@ import java.io.*;
 public class DocCreation {
 
     public static void docCreation(String newDocumentName, String templatePath, String dataModelPath) {
-        FreemarkerTemplateEngine templateEngine = (FreemarkerTemplateEngine)TemplateEngineInitializerRegistry.getRegistry()
+        FreemarkerTemplateEngine templateEngine = (FreemarkerTemplateEngine) TemplateEngineInitializerRegistry
+                .getRegistry()
                 .getTemplateEngine(TemplateEngineKind.Freemarker, DocumentKind.DOCX);
         File template;
         IXDocReport report = null;
