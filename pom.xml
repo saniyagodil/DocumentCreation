@@ -22,20 +22,9 @@
 
     <dependencies>
         <dependency>
-            <groupId>org.apache.poi</groupId>
-            <artifactId>poi</artifactId>
-            <version>4.1.2</version>
-        </dependency>
-        <dependency>
             <groupId>org.freemarker</groupId>
             <artifactId>freemarker</artifactId>
             <version>2.3.30</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
-        <dependency>
-            <groupId>commons-io</groupId>
-            <artifactId>commons-io</artifactId>
-            <version>2.6</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/fr.opensagres.xdocreport/fr.opensagres.xdocreport.document.docx -->
         <dependency>
@@ -43,12 +32,6 @@
             <artifactId>fr.opensagres.xdocreport.document.docx</artifactId>
             <version>2.0.2</version>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>fr.opensagres.xdocreport</groupId>-->
-            <!--<artifactId>xdocreport</artifactId>-->
-            <!--<version>1.0.4</version>-->
-            <!--<scope>compile</scope>-->
-        <!--</dependency>-->
         <!-- https://mvnrepository.com/artifact/fr.opensagres.xdocreport/fr.opensagres.xdocreport.template.freemarker -->
         <dependency>
             <groupId>fr.opensagres.xdocreport</groupId>
