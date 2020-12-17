@@ -2,12 +2,12 @@ public class Main {
 
     public static void main(String[] args){
         String newDocumentName = "NewSimpleDocument";
-        String templatePath = "template.docx";
-        String dataModelPath = "dataModel.xml";
+        String templatePath = "src\\main\\resources\\template.docx";
+        String dataModelPath = "src\\main\\resources\\dataModel.xml";
 
         String newSchoolDocumentName = "NewSchoolDocument";
-        String schoolTemplatePath = "schoolTemplate.docx";
-        String schoolDataModelPath = "schoolDataModel.xml";
+        String schoolTemplatePath = "src\\main\\resources\\schoolTemplate.docx";
+        String schoolDataModelPath = "src\\main\\resources\\schoolDataModel.xml";
 
         DocCreation.docCreation(newSchoolDocumentName, schoolTemplatePath, schoolDataModelPath);
         DocCreation.docCreation(newDocumentName, templatePath, dataModelPath);
